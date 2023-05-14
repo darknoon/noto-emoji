@@ -3,3 +3,6 @@ __pycache__/
 waveflag
 build/
 venv/
+.DS_Store
+
+dataset/

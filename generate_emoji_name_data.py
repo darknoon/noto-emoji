@@ -193,7 +193,7 @@ _CUSTOM_CAPS_NAMES = {
 
 _NON_GENDER_CPS_TO_STRIP = frozenset(
     [0xfe0f, 0x200d] +
-    range(unicode_data._FITZ_START, unicode_data._FITZ_END + 1))
+    list(range(unicode_data._FITZ_START, unicode_data._FITZ_END + 1)))
 
 _GENDER_CPS_TO_STRIP = frozenset([0x2640, 0x2642, 0x1f468, 0x1f469])
 
